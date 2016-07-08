@@ -1,0 +1,57 @@
+
+h1 {
+  color : #ff0000;
+  text-align: center;
+}
+
+.gametable{
+  background-color: yellow;
+  border: dotted;
+}
+
+.gamerow {
+  background-color: red;
+}
+
+
+
+.gamecell {
+  background-color: blue;
+  height : 200px;
+  width : 200px;
+  border : dotted;
+}
+
+#winA {
+  background-color: white;
+  height : 200px;
+  width : 200px;
+}
+
+#winB {
+  background-color: white;
+  height : 200px;
+  width : 200px;
+}
+
+#winC {
+  background-color: white;
+  height : 200px;
+  width : 200px;
+}
+
+#winD {
+  background-color: white;
+  height : 200px;
+  width : 200px;
+}
+
+#winE {
+  background-color: white;
+  height : 200px;
+  width : 200px;
+}
+
+#one #two #three #four #five {
+  background-color: yellow;
+}
