@@ -1,13 +1,25 @@
 
 $(document).on("ready", function() {
+  $('.jumbotron').hide();
+  var counter = 0;
     console.log ("sanity check");
-
+// 
+// function win (playerWinner) {
+//       $( '.jumbotron' ).show( 10 );
+//       // PSEUDO $('.playerWinText').text(playerWinner + "JUST WON!")
+// }
     $(document).on("keypress", function slothMove(event) {
-      if (event.which==115) {
+      if (counter >= 10) {
+        console.log("sloth wins!");
+      } else if (event.which==115) {
         $("#playerSloth").animate({left: "+=100"}, "fast");
-        console.log ("key s");
-      }
-    });
+        counter ++;
+        console.log(counter);
+        if (counter === 10) {
+          win("Sloth");
+        }
+        }
+      });
 
     $(document).on("keypress", function bearMove(event) {
       if (event.which==98) {
@@ -29,5 +41,7 @@ $(document).on("ready", function() {
         console.log ("key 6");
       }
     });
+
+
 
 });
