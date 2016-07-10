@@ -43,6 +43,15 @@ function win (playerWinner) {
       }
     });
 
+/////reset button ////
+    $(".btn").on('click', function(event) {
+      $(".jumbotron").each (function (event) {
+         $(this).hide();
+         $('#playerSloth').stop();
+         $('#playerSloth').clearQueue();
+       });
+     });
+
 
 
 });
