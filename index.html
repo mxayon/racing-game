@@ -6,59 +6,77 @@
     <title>Race</title>
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style/main.css">
-
-
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <!-- Handlebars -->
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script> -->
-
-
     <script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
     <script src="script/main.js"></script>
   </head>
 
   <body>
   <div class="container">
+<!-- ///////start/////////// -->
+    <h1> Jungle Vine Game
+      <p> <button type="button" class="btn btn-default btn-lg go"> START </button>
+    </h1>
+    <!-- ///////////////
+      scoreboard -->
 
-    <div class="jumbotron">
-    <h1 class = "winning"> </h1>
-    <p class = "winner"> </p>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">Play Again!</a></p>
-    </div>
+      <button class="btn btn-primary slothScore" type="button">
+        Player Sloth <span class="badgeSloth" value=""></span>
+        </button>
+      <button class="btn btn-primary koalaScore" type="button">
+        Player Koala <span class="badgeKoala"></span>
+        </button>
+      <button class="btn btn-primary monkeyScore" type="button">
+        Player Monkey <span class="badgeMonkey"></span>
+        </button>
+      <button class="btn btn-primary bearScore" type="button">
+        Player Bear <span class="badgeBear"></span>
+        </button>
 
-      <div class="well well-lg">
-      <img id="playerSloth" src="sloths.gif" alt="" width="300"
-        style="position: relative;">
 
+<!-- ////////winnner -->
+      <div class="jumbotron">
+        <h2 class = "winning"></h2>
+        <p><a class="btn btn-primary btn-lg again" href="#" role="button">Play Again!</a></p>
+        <p class = "winner"> </p>
+        <!-- <span class= "showSloth>
+          <img id="imgLoader" src = 'file:///Users/soph/Development/WDI/racing-game/jungle.jpg'/>s
+         </span> -->
+      </div>
+
+
+      <div id="jungleTrack">
+
+        <div class="well well-lg">
+          <img id="playerSloth" src="sloth1.jpg" alt="" width="150" height="110">
+        </div>
+
+        <div class="well well-lg">
+          <img id="playerKoala" src="koalaleaves.jpg" alt="" width="140" height="110">
+        </div>
+
+        <div class="well well-lg">
+          <img id="playerMonkey" src="monkey.png" alt="" width="140" height="110">
+        </div>
+
+
+        <div class="well well-lg">
+          <img id="playerBear" src="bear.png" alt="" width="140" height="110">
+        </div>
 
       </div>
 
 
-      <div class="well well-lg">
-      <img id="playerKoala" src="koala.jpeg" alt="" width="200"
-        style="position: relative; border-radius:100%">
-
-
-      </div>
-
-      <div class="well well-lg">
-      <img id="playerMonkey" src="monkey.png" alt="" width="200" height="300"
-        style="position: relative;">
-
-
-      </div>
-
-
-      <div class="well well-lg">
-      <img id="playerBear" src="bear.png" alt="" width="200"
-        style="position: absolute;">
-
-
-      </div>
 
   </div>
+
+
+
+
 
 
 

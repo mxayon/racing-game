@@ -1,15 +1,103 @@
 body {
-  background-image: url("file:///Users/soph/Development/WDI/racing-game/jungle.jpg ") ;
+  background-image: url("file:///Users/soph/Development/WDI/racing-game/jungle.jpg");
   background-size: cover;
   background-position: center;
+  padding-top: 40px;
+}
+
+.slothScore, .koalaScore, .monkeyScore, .bearScore {
+  background-image: url('file:///Users/soph/Development/WDI/racing-game/leaf.ico');
+  background-position: -7px -5px;
+  background-repeat: no-repeat;
+  background-size: 50px 54px;
+  padding-left: 50px;
+  background-color: #646b2f;
+  margin-left: 80px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 15px;
+}
+
+
+.go
+  {
+    background-image: url('file:///Users/soph/Development/WDI/racing-game/leaf.ico');
+    background-position: -10px -25px;
+    background-repeat: no-repeat;
+    background-size: 70px 94px;
+    background-color: #646b2f;
+    padding: 15px;
+    width: 160px;
+    color: white;
+  }
+
+  .go:hover
+  {
+    background-image: url('file:///Users/soph/Development/WDI/racing-game/leaf.ico');
+    background-position: -10px -25px;
+    background-repeat: no-repeat;
+    background-color: #646b2f;
+    padding: 15px;
+    width: 160px;
+    color: white;
+  }
+
+  .again {
+    position: absolute;
+    float: left;
+    background-image: url('file:///Users/soph/Development/WDI/racing-game/leaf.ico');
+    background-position: -7px -5px;
+    background-repeat: no-repeat;
+    background-size: 50px 54px;
+    padding-left: 15px;
+    background-color: #646b2f;
+    width: 160px;
+    font-family: 'Indie Flower', cursive;
+  }
+
+.jumbotron {
+  background-image: url("file:///Users/soph/Development/WDI/racing-game/bg-win.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
 
 h1 {
-  color : green;
+  font-family: 'Indie Flower', cursive;
+  color : white;
   text-align: center;
+  text-shadow: 1px 1px 2px black;
+  opacity: 0.9;
+}
+
+h2 {
+  color: white;
+  font-family: 'Indie Flower', cursive;
 }
 
 .well {
-  height : 170px;
+  height : 90px;
+  margin: 20px 0px 0px 0px;
   background-color: transparent;
+  padding-bottom: 80px;
+  border-right-style: dashed;
+  border-right-color: white;
+  border-right-width: thick;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left: red;
+}
+
+#playerSloth, #playerKoala {
+   border-radius: 900%;
+   position: relative;
+   margin-left: -100px;
+   margin-bottom: inherit;
+
+}
+
+#playerMonkey, #playerBear {
+  position: relative;
+  margin-left: -100px;
+  margin-bottom: 40px;
+
 }
