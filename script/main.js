@@ -16,7 +16,7 @@ $('.go').on("click", function startGame(event) {
     $('#playerBear').css('left', 0);
   });
 
-  var jungleTrackWidth = $(window).width();
+  // var jungleTrackWidth = $(window).width();
 
       // var startLine = (slothCount, bearCount, koalaCount, monkeyCount);
       // function startGame(event) {

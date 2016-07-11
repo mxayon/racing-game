@@ -76,9 +76,9 @@ h2 {
 
 .well {
   height : 90px;
-  margin: 15px 0px 0px 0px;
+  margin: -1px 0px 25px 0px;
   background-color: transparent;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   border-right-style: dashed;
   border-right-color: white;
   border-right-width: thick;
@@ -87,17 +87,26 @@ h2 {
   border-left: red;
 }
 
-#playerSloth, #playerKoala {
-   border-radius: 10%;
+#playerSloth {
    position: relative;
    margin-left: -100px;
-   margin-bottom: inherit;
-
+   margin-bottom: 10px;
 }
 
-#playerMonkey, #playerBear {
+#playerKoala {
   position: relative;
   margin-left: -100px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+}
 
+#playerBear {
+  position: relative;
+  margin-left: -100px;
+  margin-bottom: 10px;
+}
+#playerMonkey {
+  border-radius: 20%;
+  position: relative;
+  margin-left: -100px;
+  padding-bottom: 20px;
 }
