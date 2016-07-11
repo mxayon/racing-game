@@ -55,16 +55,16 @@ $('.go').on("click", function startGame(event) {
 
 
         $(document).on("keypress", function slothMove(event) {
-          if ((slothCount >= 55) || (moveCount ===1)) {
-            console.log("sloth wins!");
+          if ((slothCount >= 46) || (moveCount ===1)) {
+            // console.log("sloth wins!");
             ////stops sloth from happening
           } else if (event.which==115) {
-            $("#playerSloth").animate({left: "+=25"}, 50);
+            $("#playerSloth").animate({left: "+=25"}, 20);
             slothCount ++;
             console.log(slothCount);
-            if (slothCount === 55) {
+            if (slothCount === 46) {
               win("Sloth");
-              $(".winning").append(('<img id="theImg" src="file:///Users/soph/Development/WDI/racing-game/slothwinner.png" width="400" height="200"/> ' + ' <img id="theImg" src="file:///Users/soph/Development/WDI/racing-game/sloths.gif" />' ));
+              $(".winning").append(('<img id="theImg" src="file:///Users/soph/Development/WDI/racing-game/slothwin.png" width="270" height="130"/> ' + ' <img id="theImg" src="file:///Users/soph/Development/WDI/racing-game/sloths.gif" />' ));
               $(".badgeSloth").append( + 1);
             }
           }
@@ -73,15 +73,15 @@ $('.go').on("click", function startGame(event) {
         /////playerBear
 
         $(document).on("keypress", function bearMove(event) {
-          if ((bearCount >= 55) || (moveCount ===1)) {
-            console.log("bear wins!");
+          if ((bearCount >= 46) || (moveCount ===1)) {
+            // console.log("bear wins!");
           } else if (event.which==98) {
-            $("#playerBear").animate({left: "+=25"}, 50);
+            $("#playerBear").animate({left: "+=25"}, 20);
             bearCount ++;
             console.log (bearCount);
-            if (bearCount === 55) {
+            if (bearCount === 46) {
               win ("Bear");
-              $(".winning").append(('<img id="theImg" src="file:///Users/soph/Development/WDI/racing-game/bearwin.gif"/> ' + ' <img id="theImg" src="file:///Users/soph/Development/WDI/racing-game/bearlywin.gif" />' ));
+              $(".winning").append(('<img id="theImg" src="file:///Users/soph/Development/WDI/racing-game/bearwin.gif" width="480" height="280"/> ' + ' <img id="theImg" src="file:///Users/soph/Development/WDI/racing-game/bearlywin.gif" width="300" height="200"/>' ));
               $(".badgeBear").append( + 1);
             }
           }
@@ -90,13 +90,13 @@ $('.go').on("click", function startGame(event) {
         ///////playerKoala
 
         $(document).on("keypress", function koalaMove(event) {
-          if ((koalaCount >= 55) || (moveCount ===1)) {
-            console.log("koala wins!");
+          if ((koalaCount >= 46) || (moveCount ===1)) {
+            // console.log("koala wins!");
           } else if (event.which==107) {
-            $("#playerKoala").animate({left: "+=25"}, 100);
+            $("#playerKoala").animate({left: "+=25"}, 20);
             koalaCount ++;
             console.log (koalaCount);
-            if (koalaCount === 55) {
+            if (koalaCount === 46) {
               win ("Koala");
               $(".winning").append(('<img id="theImg" src="file:///Users/soph/Development/WDI/racing-game/koalafied.png" width="270" height="300"/> ' + ' <img id="theImg" src="file:///Users/soph/Development/WDI/racing-game/koalty.gif" />' ));
               $(".badgeKoala").append( + 1);
@@ -109,13 +109,13 @@ $('.go').on("click", function startGame(event) {
         ///////playerMonkey
 
         $(document).on("keypress", function monkeyMove(event) {
-          if ((monkeyCount >= 55) || (moveCount ===1)) {
-            console.log("monkey wins!");
+          if ((monkeyCount >= 46) || (moveCount ===1)) {
+            // console.log("monkey wins!");
           } else if (event.which==109) {
-            $("#playerMonkey").animate({left: "+=25"}, 100);
+            $("#playerMonkey").animate({left: "+=25"}, 20);
             monkeyCount ++;
             console.log (monkeyCount);
-            if (monkeyCount === 55) {
+            if (monkeyCount === 46) {
               win ("Monkey");
               $(".winning").append(('<img id="theImg" src="file:///Users/soph/Development/WDI/racing-game/monkeywin.gif"/> ' + ' <img id="theImg" src="file:///Users/soph/Development/WDI/racing-game/monkeybusiness.gif" />' ));
               $(".badgeMonkey").append( + 1);

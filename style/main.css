@@ -2,7 +2,7 @@ body {
   background-image: url("file:///Users/soph/Development/WDI/racing-game/jungle.jpg");
   background-size: cover;
   background-position: center;
-  padding-top: 40px;
+  padding-top: 25px;
 }
 
 .slothScore, .koalaScore, .monkeyScore, .bearScore {
@@ -76,9 +76,9 @@ h2 {
 
 .well {
   height : 90px;
-  margin: 20px 0px 0px 0px;
+  margin: 15px 0px 0px 0px;
   background-color: transparent;
-  padding-bottom: 80px;
+  padding-bottom: 30px;
   border-right-style: dashed;
   border-right-color: white;
   border-right-width: thick;
@@ -88,7 +88,7 @@ h2 {
 }
 
 #playerSloth, #playerKoala {
-   border-radius: 900%;
+   border-radius: 10%;
    position: relative;
    margin-left: -100px;
    margin-bottom: inherit;
