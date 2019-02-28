@@ -1,12 +1,12 @@
 body {
-  background-image: url("file:///Users/soph/Development/WDI/racing-game/jungle.jpg");
+  background-image: url("../jungle.jpg");
   background-size: cover;
   background-position: center;
   padding-top: 25px;
 }
 
 .slothScore, .koalaScore, .monkeyScore, .bearScore {
-  background-image: url('file:///Users/soph/Development/WDI/racing-game/leaf.ico');
+  background-image: url('../leaf.ico');
   background-position: -7px -5px;
   background-repeat: no-repeat;
   background-size: 50px 54px;
@@ -20,7 +20,7 @@ body {
 
 .go
   {
-    background-image: url('file:///Users/soph/Development/WDI/racing-game/leaf.ico');
+    background-image: url('../leaf.ico');
     background-position: -10px -25px;
     background-repeat: no-repeat;
     background-size: 70px 94px;
@@ -32,7 +32,7 @@ body {
 
   .go:hover
   {
-    background-image: url('file:///Users/soph/Development/WDI/racing-game/leaf.ico');
+    background-image: url('../leaf.ico');
     background-position: -10px -25px;
     background-repeat: no-repeat;
     background-color: #646b2f;
@@ -44,7 +44,7 @@ body {
   .again {
     position: absolute;
     float: left;
-    background-image: url('file:///Users/soph/Development/WDI/racing-game/leaf.ico');
+    background-image: url('../leaf.ico');
     background-position: -7px -5px;
     background-repeat: no-repeat;
     background-size: 50px 54px;
@@ -55,7 +55,7 @@ body {
   }
 
 .jumbotron {
-  background-image: url("file:///Users/soph/Development/WDI/racing-game/bg-win.gif");
+  background-image: url("../bg-win.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-color: transparent;
