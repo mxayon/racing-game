@@ -1,7 +1,12 @@
-JUNGLE VINE GAME!
+# JUNGLE VINE GAME
+## Javascript in the wild!
+
+## A simple racing game with jquery and javascript
 
 
-Choose your player!
+[JUNLE VINE GAME](jungle-game.png)
+
+# Choose player - use corresponding animal character key to move and win the race!
 
 player Sloth = press key "s",
 player Koala = press key "k",
@@ -9,30 +14,29 @@ player Monkey = presss key "m",
 player Bear = press key "b",
 
 
-Players will not start unless yoy press "Start Button",
 
-Once winning player gets to finish line - player score shows up on respective players score board.
+* Players will not start unless you press "Start Button",
 
-Different players have different "Win" surprise.
+* Once winning player gets to finish line - player score shows up on respective players score board.
 
-Try to use different characters to see each players "surprise".
+* Different players have different "Win" surprise.
 
-Play as much as you want!!
+* Try to use different characters to see each players "surprise".
 
-All players can swing in the jungle together and at the same time.
+[Koala Wins!](koa.png)
 
-To get players back to starting line, just press start button again.
+* Play as much as you want!!
+
+* All players can swing in the jungle together and at the same time.
+
+* To get players back to starting line, just press start button again.
 Players scores will continue to tally.
 
 
-Screen shot =
-
-file:///Users/soph/Development/WDI/racing-game/junglevinegame.png
 
 
 
-//////////
-**** things to work on =
 
-countdown timer
-connect to music player API and load jungle sound
+
+Future Features:
+Game counter
