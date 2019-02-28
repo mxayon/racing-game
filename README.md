@@ -6,7 +6,9 @@
 
 ![JUNLE VINE GAME](jungle-game.png)
 
-# Choose player - use corresponding animal character key to move and win the race!
+## How to play:
+
+Choose player - use corresponding animal character key to move and win the race!
 
 player Sloth = press key "s",
 player Koala = press key "k",
