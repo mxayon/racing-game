@@ -4,7 +4,7 @@
 ## A simple racing game with jquery and javascript
 
 
-[JUNLE VINE GAME](jungle-game.png)
+![JUNLE VINE GAME](jungle-game.png)
 
 # Choose player - use corresponding animal character key to move and win the race!
 
@@ -23,7 +23,7 @@ player Bear = press key "b",
 
 * Try to use different characters to see each players "surprise".
 
-[Koala Wins!](koa.png)
+![Koala Wins!](koa.png)
 
 * Play as much as you want!!
 
